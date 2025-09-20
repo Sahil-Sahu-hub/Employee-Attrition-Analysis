@@ -1,10 +1,8 @@
-# HR Analytics
-
 ## Project Title
-HR Analytics: Diagnosing Workforce Attrition with Data-Driven Insights
+Employee Attrition Analytics: Diagnosing Workforce Attrition with Data-Driven Insights
 
 ## Brief One Line Summary
-An HR analytics dashboard to identify, quantify, and mitigate employee attrition through structured workforce data analysis.
+An Employee Attrition dashboard to identify, quantify, and mitigate employee attrition through structured workforce data analysis.
 
 ## Overview
 Employee attrition is a recurring operational risk that impacts institutional knowledge, workforce morale, and replacement costs.  
@@ -18,15 +16,6 @@ The analysis is based on [15 years of HRIS data / REPLACE_WITH_ACTUAL_PERIOD], e
 ## Problem Statement
 The organization faces an overall attrition rate of **16.12%** (237 exits out of 1,470 employees), disproportionately affecting mid-career professionals (ages 26–35) and employees earning below $5K/month. High turnover in these segments disrupts succession pipelines, inflates hiring costs, and weakens business continuity.  
 **Success criteria**: reduce attrition rate by ≥ 3% over 12–18 months, increase average tenure by ≥ 1 year, and lower early-tenure (1–3 years) turnover by ≥ 10% relative to baseline.
-
-## Tools and Technologies
-- **Languages**: Python 3.11, SQL (MySQL 8.0)
-- **Libraries**: pandas, numpy, matplotlib, seaborn, scikit-learn
-- **Visualization**: Power BI Desktop (v[REPLACE_WITH_VERSION])
-- **Database**: MySQL Community Server
-- **Containerization / Environment**: Docker, Conda
-- **Version Control**: Git, GitHub
-- **Other**: Jupyter Notebook for EDA and prototyping
 
 ## Methods
 1. **Data Ingestion**
@@ -46,14 +35,6 @@ The organization faces an overall attrition rate of **16.12%** (237 exits out of
 4. **Exploratory Analysis**
    - Attrition counts by age, salary, job role, education field.
    - Attrition timelines across tenure years.
-5. **Validation Strategy**
-   - Cross-validation on tenure-based splits.
-   - Benchmark comparison against external attrition metrics.
-6. **Evaluation Metrics**
-   - Attrition rate (%) per segment.
-   - Turnover concentration index.
-   - Salary-at-risk thresholds.
-   - [Optional Predictive Extension] ROC-AUC, F1-score for attrition classifiers.
 
 ## Key Insights
 - **Mid-Career Vulnerability**: Employees aged 26–35 show a 23% attrition rate.  
@@ -68,10 +49,6 @@ The organization faces an overall attrition rate of **16.12%** (237 exits out of
   *Implication*: Adjust commission structures (Sales) and enhance skill training (R&D).  
 - **Role-Specific Pressure**: Laboratory Technicians and Sales Executives account for ~50% of exits.  
   *Implication*: Prioritize retention in high-churn roles.  
-- **Education Field Distribution**: Life Sciences and Medical dominate attrition counts.  
-  *Implication*: Review career pathing and workload for these education tracks.  
-- **Tenure Curve**: Sharp drop after Year 1, plateau after Year 3.  
-  *Implication*: Employees either disengage quickly or embed for long term.
 
 ## Results & Conclusion
 - **Overall Attrition Rate**: 16.12% (237 / 1,470 employees).  
@@ -86,17 +63,7 @@ The organization faces an overall attrition rate of **16.12%** (237 exits out of
 - Predictive modeling not fully productionized—analysis remains diagnostic rather than prescriptive.  
 - External labor market dynamics (e.g., economic downturns, sectoral hiring spikes) not modeled.  
 
-## Future Work
-- Integrate predictive attrition models (logistic regression, random forest, gradient boosting).  
-- Incorporate employee engagement survey data for non-compensation factors.  
-- Automate ETL pipelines for monthly/quarterly refresh.  
-- Productionize dashboards with role-based access governance.  
-- Conduct controlled A/B testing on interventions (e.g., pay adjustments, hybrid work rollout).  
-- Build cost-of-attrition KPI (replacement cost × attrition count).  
-- Implement monitoring and alerting runbooks for HR leadership.  
-
 ## Author & Contact
-
 **Author**: Sahil Sahu  
 
 **Role**: Data Analyst 
