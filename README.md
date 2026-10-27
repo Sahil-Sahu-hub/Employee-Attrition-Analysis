@@ -11,7 +11,7 @@ This project addresses attrition by constructing a data-driven diagnostic dashbo
 The intended audience includes HR leadership, operational managers, and executive stakeholders tasked with workforce planning and retention strategy.  
 Deliverables include a Power BI dashboard, structured datasets, and an insight report highlighting attrition drivers across demographic, tenure, and compensation cohorts.  
 
-The analysis is based on [15 years of HRIS data / REPLACE_WITH_ACTUAL_PERIOD], enriched with external benchmarks (industry attrition rates, regional compensation norms), and transformed into aggregated features suitable for both descriptive and predictive analysis.  
+The analysis is based on [15 years of HRIS data], enriched with external benchmarks (industry attrition rates, regional compensation norms), and transformed into aggregated features suitable for both descriptive and predictive analysis.  
 
 ## Problem Statement
 The organization faces an overall attrition rate of **16.12%** (237 exits out of 1,470 employees), disproportionately affecting mid-career professionals (ages 26–35) and employees earning below $5K/month. High turnover in these segments disrupts succession pipelines, inflates hiring costs, and weakens business continuity.  
