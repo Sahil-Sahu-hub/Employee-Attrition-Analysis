@@ -68,5 +68,5 @@ The organization faces an overall attrition rate of **16.12%** (237 exits out of
 
 **Role**: Data Analyst 
 
-**Email**: [your_email@example.com]  
+**Email**: [sahilsahu20aug@gmail.com]  
 
